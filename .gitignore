@@ -1,0 +1,59 @@
+# ============================================================
+# SECRETS — NEVER COMMIT THESE
+# ============================================================
+kaggle.json
+*.json          # catch any stray credential files
+.env
+.env.*
+secrets/
+credentials/
+
+# ============================================================
+# LARGE MODEL FILES (too big for GitHub, use Git LFS or link)
+# ============================================================
+*.h5
+*.pb
+*.joblib
+*.pkl
+*.ckpt
+*.onnx
+saved_model/
+
+# ============================================================
+# DATASETS (download separately, not stored in repo)
+# ============================================================
+datasets/
+data/
+Animal-Sound-Dataset/
+selected_animals/
+UrbanSound8K/
+processed_data/
+archive.zip
+*.zip
+
+# ============================================================
+# CACHE & GENERATED FILES
+# ============================================================
+feat_cache_svm/
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+*.pyc
+
+# ============================================================
+# OS & EDITOR FILES
+# ============================================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ============================================================
+# LOGS & OUTPUTS
+# ============================================================
+*.log
+outputs/
+results/
